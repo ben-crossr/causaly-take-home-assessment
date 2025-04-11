@@ -1,6 +1,8 @@
 ## Ben Vozza's Take Home Assessment for Causaly
 
-#### More details found in the pdf submitted alongside the repo.
+#### More details (such as limitations/improvements) found in the pdf submitted alongside the repo.
+
+#### This README.md is one of the improvements to make.
 
 #### This repository demonstrates a workflow that:
 - Parses KEGG KGML files to extract disease- and pathway-related gene relationships.
@@ -17,7 +19,7 @@
   - Place goa_human.gaf file in `data/GO`
 - Set your OpenAI API key:
 `export OPENAI_API_KEY=xxxxx` or define it in .env.
-- In `app/main.py`, edit the `user_query` variable to any question about a gene or disease.
+- In `app/main.py`, edit the `user_query` variable to any question about a gene.
 ```python
 user_query = "What diseases is gene INS associated with?"
 ```
