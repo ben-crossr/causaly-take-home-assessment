@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "causaly-take-home-assessment"
+version = "0.1.0"
+description = ""
+authors = ["vozza <ben@crossr.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.11.3"
+openai = "^1.72.0"
+python-dotenv = "^1.1.0"
+pandas = "^2.2.3"
+networkx = "^3.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
